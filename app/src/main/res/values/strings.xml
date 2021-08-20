@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Conver$on</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="title_converter">Converter</string>
 </resources>

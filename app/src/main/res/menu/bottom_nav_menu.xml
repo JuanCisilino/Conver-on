@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/calculadora"
+        android:title="@string/title_calculator" />
+
+    <item
+        android:id="@+id/navigation_converter"
+        android:icon="@drawable/cambio"
+        android:title="@string/title_converter" />
+
+
+</menu>
