@@ -67,7 +67,7 @@
 
                 <Button
                     android:id="@+id/btMultiply"
-                    android:text="*"
+                    android:text="X"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="15dp"

@@ -10,7 +10,7 @@ import com.frost.converon.databinding.FragmentCalculatorBinding
 
 class CalculatorFragment : Fragment() {
 
-    private val homeViewModel by lazy { ViewModelProvider(this).get(CalculatorViewModel::class.java) }
+    private val viewModel by lazy { ViewModelProvider(this).get(CalculatorViewModel::class.java) }
     private var _binding: FragmentCalculatorBinding? = null
     private var isNewOp = true
     private var oldNumber = ""
@@ -81,7 +81,6 @@ class CalculatorFragment : Fragment() {
         var result = binding.editText.text.toString()
         when (buClick){
             "+-" -> result = "-$result"
-            "" -> result = "$result"
             "/" -> setFactor("/", result)
             "*" -> setFactor("*", result)
             "+" -> setFactor("+", result)
