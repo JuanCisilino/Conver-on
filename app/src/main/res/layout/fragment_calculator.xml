@@ -21,10 +21,11 @@
             android:id="@+id/editText"
             android:ems="10"
             android:layout_weight="1"
-            android:inputType="textPersonName"
+            android:lines="1"
+            android:cursorVisible="false"
             android:text="0"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="40pt"
+            android:textSize="30pt"
             android:gravity="end|center"
             android:background="@color/gray" />
 
@@ -88,6 +89,7 @@
                 <Button
                     android:id="@+id/bt7"
                     android:text="7"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
                     android:background="@color/background"
@@ -98,6 +100,7 @@
                     android:id="@+id/bt8"
                     android:layout_weight="1"
                     android:text="8"
+                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
                     android:layout_width="30pt"
@@ -107,6 +110,7 @@
                     android:id="@+id/bt9"
                     android:layout_weight="1"
                     android:text="9"
+                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
                     android:layout_width="30pt"
@@ -136,6 +140,7 @@
                 <Button
                     android:id="@+id/bt6"
                     android:text="6"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
                     android:background="@color/background"
@@ -145,6 +150,7 @@
                 <Button
                     android:id="@+id/bt5"
                     android:text="5"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
@@ -155,6 +161,7 @@
                     android:id="@+id/bt4"
                     android:textFontWeight="1"
                     android:text="4"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
@@ -186,6 +193,7 @@
                 <Button
                     android:id="@+id/bt3"
                     android:text="3"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
                     android:background="@color/background"
@@ -195,6 +203,7 @@
                 <Button
                     android:id="@+id/bt2"
                     android:text="2"
+                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
@@ -205,6 +214,7 @@
                     android:id="@+id/bt1"
                     android:layout_weight="1"
                     android:text="1"
+                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
                     android:background="@color/background"
                     android:layout_width="30pt"
@@ -236,6 +246,7 @@
             <Button
                 android:id="@+id/bt0"
                 android:text="0"
+                android:onClick="numberEvent"
                 style="@style/TextAppearance.AppCompat.Widget.Button"
                 android:layout_weight="2"
                 android:layout_marginStart="10dp"
@@ -247,6 +258,7 @@
                 android:id="@+id/btDot"
                 android:layout_weight="1"
                 android:text="."
+                android:onClick="numberEvent"
                 style="@style/TextAppearance.AppCompat.Widget.Button"
                 android:layout_marginStart="10dp"
                 android:background="@color/background"
