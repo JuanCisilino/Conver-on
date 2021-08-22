@@ -38,40 +38,44 @@
                 android:layout_height="match_parent"
                 android:background="@color/gray">
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btAC"
                     android:text="AC"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btPlusMinus"
                     android:text="+/-"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btDivide"
                     android:text="/"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btMultiply"
                     android:text="X"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
@@ -86,43 +90,44 @@
                 android:layout_height="match_parent"
                 android:background="@color/gray">
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt7"
                     android:text="7"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt8"
                     android:layout_weight="1"
                     android:text="8"
-                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt9"
                     android:layout_weight="1"
                     android:text="9"
-                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btPercentge"
                     android:text="%"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
@@ -137,45 +142,46 @@
                 android:layout_height="match_parent"
                 android:background="@color/gray">
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt6"
                     android:text="6"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt5"
                     android:text="5"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt4"
                     android:textFontWeight="1"
                     android:text="4"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btPlus"
                     android:textFontWeight="1"
                     android:text="+"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
@@ -190,43 +196,44 @@
                 android:layout_height="match_parent"
                 android:background="@color/gray">
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt3"
                     android:text="3"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="15dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt2"
                     android:text="2"
-                    android:onClick="numberEvent"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bt1"
                     android:layout_weight="1"
                     android:text="1"
-                    android:onClick="numberEvent"
                     android:layout_marginStart="10dp"
-                    android:background="@color/background"
+                    android:backgroundTint="@color/background"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btMinus"
                     android:text="-"
                     android:layout_weight="1"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/btn_main_round"
                     android:layout_width="30pt"
                     android:layout_height="30pt"/>
 
@@ -243,36 +250,37 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bt0"
                 android:text="0"
-                android:onClick="numberEvent"
                 style="@style/TextAppearance.AppCompat.Widget.Button"
                 android:layout_weight="2"
                 android:layout_marginStart="10dp"
-                android:background="@color/background"
+                android:backgroundTint="@color/background"
+                android:background="@drawable/btn_main_round"
                 android:layout_width="50pt"
                 android:layout_height="30pt"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btDot"
                 android:layout_weight="1"
                 android:text="."
-                android:onClick="numberEvent"
                 style="@style/TextAppearance.AppCompat.Widget.Button"
                 android:layout_marginStart="10dp"
-                android:background="@color/background"
+                android:backgroundTint="@color/background"
+                android:background="@drawable/btn_main_round"
                 android:layout_width="50pt"
                 android:layout_height="30pt"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btEqual"
                 android:text="="
                 style="@style/TextAppearance.AppCompat.Widget.Button"
                 android:layout_weight="1"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="15dp"
-                android:background="@color/colorAccent"
+                android:backgroundTint="@color/colorAccent"
+                android:background="@drawable/btn_main_round"
                 android:layout_width="30pt"
                 android:layout_height="30pt"/>
 

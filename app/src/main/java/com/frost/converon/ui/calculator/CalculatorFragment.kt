@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.frost.converon.databinding.FragmentCalculatorBinding
+import kotlinx.android.synthetic.main.fragment_calculator.*
 
 class CalculatorFragment : Fragment() {
 
@@ -43,7 +44,7 @@ class CalculatorFragment : Fragment() {
     }
 
     private fun setPercentageEvent() {
-        val no = binding.editText.text.toString().toDouble()/100
+        val no = (oldNumber.toDouble().times(editText.text.toString().toDouble()))/100
         binding.editText.setText(no.toString())
         isNewOp = true
     }

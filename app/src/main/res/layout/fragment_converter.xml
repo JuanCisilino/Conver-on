@@ -17,7 +17,7 @@
             android:id="@+id/txtFrom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:text="@string/from"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -94,6 +94,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
+            android:background="@drawable/edit_text_input_with_border"
             android:ellipsize="start"
             android:hint="@string/amount"
             android:importantForAutofill="no"
@@ -109,7 +110,7 @@
             app:layout_constraintVertical_bias="0.0"
             tools:ignore="LabelFor" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnConvert"
             android:layout_width="0dp"
             android:layout_height="60dp"
@@ -117,8 +118,10 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_main_round"
             android:text="@string/convert"
             android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimary"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -127,7 +130,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etFirstCurrency"
-            app:layout_constraintVertical_bias="0.1" />
+            app:layout_constraintVertical_bias="0.123" />
 
         <ProgressBar
             android:id="@+id/prgLoading"
@@ -152,7 +155,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="0.1"
+            app:layout_constraintVertical_bias="0.23"
             app:layout_constraintTop_toBottomOf="@+id/btnConvert">
 
             <TextView
@@ -177,6 +180,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_input_with_border_2"
             android:enabled="false"
             android:hint="@string/converted_amount"
             android:importantForAutofill="no"
